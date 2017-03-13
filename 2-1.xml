@@ -1,0 +1,37 @@
+<SyncML xmlns="SYNCML:SYNCML1.2">
+	<SyncHdr>
+		<VerDTD>1.2</VerDTD>
+		<VerProto>DM/1.2</VerProto>
+		<SessionID>1</SessionID>
+		<MsgID>4</MsgID>
+		<Target>
+			<LocURI>A2000000000007</LocURI>
+		</Target>
+		<Source>
+			<LocURI>OneMS</LocURI>
+		</Source>
+		<RespURI>http://172.16.100.211:8000/comserver/omadm?sid=D45A321C6940D10239D3C8CE2D0D4DFF</RespURI>
+		<Meta>
+			<MaxMsgSize xmlns="syncml:metinf">10000</MaxMsgSize>
+		</Meta>
+	</SyncHdr>
+	<SyncBody>
+		<Status>
+			<CmdID>1</CmdID>
+			<MsgRef>4</MsgRef>
+			<CmdRef>0</CmdRef>
+			<Cmd>SyncHdr</Cmd>
+			<TargetRef>http://172.16.100.211:8000/comserver/omadm</TargetRef>
+			<SourceRef>A2000000000007</SourceRef>
+			<Chal>
+				<Meta>
+					<Format xmlns="syncml:metinf">b64</Format>
+					<Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+					<NextNonce xmlns="syncml:metinf">MTQ4NzE0NDE2NzUzMQ==</NextNonce>
+				</Meta>
+			</Chal>
+			<Data>212</Data>
+		</Status>
+		<Final/>
+	</SyncBody>
+</SyncML>

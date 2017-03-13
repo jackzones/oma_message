@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyncML xmlns="SYNCML:SYNCML1.2">
+    <SyncHdr>
+        <VerDTD>1.2</VerDTD>
+        <VerProto>DM/1.2</VerProto>
+        <SessionID>1</SessionID>
+        <MsgID>2</MsgID>
+        <Target>
+            <LocURI>A2000000000007</LocURI>
+        </Target>
+        <Source>
+            <LocURI>OneMS</LocURI>
+        </Source>
+        <RespURI>http://172.16.100.156:8000/comserver/omadm?sid=AE9455C58D683B13E04363774DE745EC</RespURI>
+        <Cred>
+            <Meta>
+                <Format xmlns="syncml:metinf">b64</Format>
+                <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+            </Meta>
+            <Data>EwZrd750R3dbyBydKiRXUA==</Data>
+        </Cred>
+        <Meta>
+            <MaxMsgSize xmlns="syncml:metinf">10000</MaxMsgSize>
+        </Meta>
+    </SyncHdr>
+    <SyncBody>
+        <Status>
+            <CmdID>1</CmdID>
+            <MsgRef>2</MsgRef>
+            <CmdRef>0</CmdRef>
+            <Cmd>SyncHdr</Cmd>
+            <TargetRef>http://172.16.100.156:8000/comserver/omadm</TargetRef>
+            <SourceRef>A2000000000007</SourceRef>
+            <Chal>
+                <Meta>
+                    <Format xmlns="syncml:metinf">b64</Format>
+                    <Type xmlns="syncml:metinf">syncml:auth-md5</Type>
+                    <NextNonce xmlns="syncml:metinf">MTQ4NzgzODg0NzUzNw==</NextNonce>
+                </Meta>
+            </Chal>
+            <Data>212</Data>
+        </Status>
+        <Status>
+            <CmdID>2</CmdID>
+            <MsgRef>2</MsgRef>
+            <CmdRef>3</CmdRef>
+            <Cmd>Replace</Cmd>
+            <Data>200</Data>
+        </Status>
+        <Status>
+            <CmdID>3</CmdID>
+            <MsgRef>2</MsgRef>
+            <CmdRef>2</CmdRef>
+            <Cmd>Alert</Cmd>
+            <Data>200</Data>
+        </Status>
+        <Replace>
+            <CmdID>4</CmdID>
+            <Item>
+                <Target>
+                    <LocURI>./3GPP_IMS/RCS/Private_user_identity</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>A2000000000007@www.test.com</Data>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./3GPP_IMS/RCS/Public_user_identity_List/1/Public_user_identity</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>sip:A2000000000007@www.test.com</Data>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./3GPP_IMS/RCS/Home_network_domain_name</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>c6.huawei.com</Data>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./3GPP_IMS/RCS/Ext/RCS/UserPwd</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>1111qqqq</Data>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./3GPP_IMS/RCS/Ext/RCS/UserPwd</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>139123456005</Data>
+            </Item>
+            <Item>
+                <Target>
+                    <LocURI>./DevDetail/LastProvisioningTime</LocURI>
+                </Target>
+                <Meta>
+                    <Format xmlns="syncml:metinf">chr</Format>
+                </Meta>
+                <Data>14</Data>
+            </Item>
+        </Replace>
+        <Final/>
+    </SyncBody>
+</SyncML>

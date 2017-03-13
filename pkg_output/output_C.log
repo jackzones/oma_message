@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oma>
+<omInterface>
+    <traceMsg>
+        <localIpType>0</localIpType>
+        <localIpAddr>172.20.141.32</localIpAddr>
+        <localIpPort>8000</localIpPort>
+        <remoteIpType>0</remoteIpType>
+        <remoteIpAddr>172.16.100.163</remoteIpAddr>
+        <remoteIpPort>36370</remoteIpPort>
+        <userTraceHandle>
+            <int>9</int>
+        </userTraceHandle>
+        <msgType>0</msgType>
+        <direction>0</direction>
+        <msgName>POST /comserver/omadm</msgName>
+        <msgLen>3626</msgLen>
+        <msgValue><![CDATA[host: 172.16.100.156:8000
+content-length: 3513
+user-agent: workssys.com
+content-type: application/vnd.syncml.dm+xml
+<?xml version='1.0' encoding='UTF-8'?><SyncML xmlns='SYNCML:SYNCML1.2'><SyncHdr><VerDTD>1.2</VerDTD><VerProto>DM/1.2</VerProto><SessionID>1</SessionID><MsgID>1</MsgID><Target><LocURI>http://172.16.100.156:8000/comserver/omadm</LocURI><LocName>OneMS</LocName></Target><Source><LocURI>A2000000000007</LocURI><LocName>A2000000000007</LocName></Source><Cred><Meta><Type xmlns='syncml:metinf'>syncml:auth-md5</Type><Format xmlns='syncml:metinf'>b64</Format></Meta><Data>+yU0Xe4lZMN7d19qpZ2SMg==</Data></Cred><Meta><MaxMsgSize xmlns='syncml:metinf'>10000</MaxMsgSize></Meta></SyncHdr><SyncBody><Alert><CmdID>1</CmdID><Data>1201</Data></Alert><Replace><CmdID>2</CmdID><Item><Source><LocURI>./DevInfo/DevId</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>A2000000000007</Data></Item><Item><Source><LocURI>./DevInfo/Man</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>lucy2</Data></Item><Item><Source><LocURI>./DevInfo/Mod</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>12</Data></Item><Item><Source><LocURI>./DevInfo/DmV</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>1.0</Data></Item><Item><Source><LocURI>./DevInfo/Lang</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>US-en</Data></Item><Item><Source><LocURI>./DevDetail/DevType</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>0101</Data></Item><Item><Source><LocURI>./DevDetail/FwV</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>v1.2.1.1-010100bj</Data></Item><Item><Source><LocURI>./HuaweiExt/Register/Status</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>1</Data></Item><Item><Source><LocURI>./DevDetail/UpgradeStatus</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>0</Data></Item><Item><Source><LocURI>./DevDetail/TerIdentifier</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>lucy</Data></Item><Item><Source><LocURI>./DevDetail/LastProvisioningTime</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>13</Data></Item><Item><Source><LocURI>./HuaweiExt/SBCsetting/cfgSBC</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>1</Data></Item><Item><Source><LocURI>./HuaweiExt/CaasSetting/AppKey</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>AppKey</Data></Item><Item><Source><LocURI>./HuaweiExt/CaasSetting/AppName</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>RCS</Data></Item><Item><Source><LocURI>./HuaweiExt/CaasSetting/AccessToken</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>***</Data></Item></Replace><Final/></SyncBody></SyncML>]]></msgValue>
+    </traceMsg>
+</omInterface>
+<omInterface>
+    <traceMsg>
+        <localIpType>0</localIpType>
+        <localIpAddr>172.16.100.163</localIpAddr>
+        <localIpPort>36370</localIpPort>
+        <remoteIpType>0</remoteIpType>
+        <remoteIpAddr>172.20.141.32</remoteIpAddr>
+        <remoteIpPort>8000</remoteIpPort>
+        <userTraceHandle>
+            <int>9</int>
+        </userTraceHandle>
+        <msgType>0</msgType>
+        <direction>1</direction>
+        <msgName>200</msgName>
+        <msgLen>2416</msgLen>
+        <msgValue><![CDATA[Content-Type: application/vnd.syncml.dm+xml
+Content-Length: 2326
+Date: Thu, 23 Feb 2017 08:34:07 GMT
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2"><SyncHdr><VerDTD>1.2</VerDTD><VerProto>DM/1.2</VerProto><SessionID>1</SessionID><MsgID>1</MsgID><Target><LocURI>A2000000000007</LocURI><LocName>A2000000000007</LocName></Target><Source><LocURI>OneMS</LocURI><LocName>A2000000000007</LocName></Source><RespURI>http://172.16.100.156:8000/comserver/omadm?sid=AE9455C58D683B13E04363774DE745EC</RespURI><Cred><Meta><Format xmlns="syncml:metinf">b64</Format><Type xmlns="syncml:metinf">syncml:auth-md5</Type></Meta><Data>PBOuVG0IwCkcW9hyONGLJg==</Data></Cred><Meta><MaxMsgSize xmlns="syncml:metinf">10000</MaxMsgSize></Meta></SyncHdr><SyncBody><Status><CmdID>1</CmdID><MsgRef>1</MsgRef><CmdRef>0</CmdRef><Cmd>SyncHdr</Cmd><TargetRef>http://172.16.100.156:8000/comserver/omadm</TargetRef><SourceRef>A2000000000007</SourceRef><Chal><Meta><Format xmlns="syncml:metinf">b64</Format><Type xmlns="syncml:metinf">syncml:auth-md5</Type><NextNonce xmlns="syncml:metinf">MTQ4NzgzODg0Njc4NA==</NextNonce></Meta></Chal><Data>212</Data></Status><Status><CmdID>2</CmdID><MsgRef>1</MsgRef><CmdRef>1</CmdRef><Cmd>Alert</Cmd><Data>200</Data></Status><Status><CmdID>3</CmdID><MsgRef>1</MsgRef><CmdRef>2</CmdRef><Cmd>Replace</Cmd><Data>200</Data></Status><Replace><CmdID>4</CmdID><Item><Target><LocURI>./3GPP_IMS/RCS/Private_user_identity</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>A2000000000007@www.test.com</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Public_user_identity_List/1/Public_user_identity</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>sip:A2000000000007@www.test.com</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Home_network_domain_name</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>c6.huawei.com</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Ext/RCS/UserPwd</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>***</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Ext/RCS/UserPwd</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>***</Data></Item><Item><Target><LocURI>./DevDetail/LastProvisioningTime</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>14</Data></Item></Replace><Final/></SyncBody></SyncML>]]></msgValue>
+    </traceMsg>
+</omInterface>
+<omInterface>
+    <traceMsg>
+        <localIpType>0</localIpType>
+        <localIpAddr>172.20.141.32</localIpAddr>
+        <localIpPort>8000</localIpPort>
+        <remoteIpType>0</remoteIpType>
+        <remoteIpAddr>172.16.100.163</remoteIpAddr>
+        <remoteIpPort>36370</remoteIpPort>
+        <userTraceHandle>
+            <int>9</int>
+        </userTraceHandle>
+        <msgType>0</msgType>
+        <direction>0</direction>
+        <msgName>POST /comserver/omadm?sid=AE9455C58D683B13E04363774DE745EC</msgName>
+        <msgLen>3761</msgLen>
+        <msgValue><![CDATA[host: 172.16.100.156:8000
+content-length: 3648
+user-agent: workssys.com
+content-type: application/vnd.syncml.dm+xml
+<?xml version='1.0' encoding='UTF-8'?><SyncML xmlns='SYNCML:SYNCML1.2'><SyncHdr><VerDTD>1.2</VerDTD><VerProto>DM/1.2</VerProto><SessionID>1</SessionID><MsgID>2</MsgID><Target><LocURI>http://172.16.100.156:8000/comserver/omadm</LocURI></Target><Source><LocURI>A2000000000007</LocURI></Source><Meta><MaxMsgSize xmlns='syncml:metinf'>10000</MaxMsgSize></Meta></SyncHdr><SyncBody><Status><CmdID>1</CmdID><MsgRef>1</MsgRef><CmdRef>0</CmdRef><Cmd>SyncHdr</Cmd><TargetRef>A2000000000007</TargetRef><SourceRef>OneMS</SourceRef><Chal><Meta><Format xmlns='syncml:metinf'>b64</Format><Type xmlns='syncml:metinf'>syncml:auth-md5</Type><NextNonce xmlns='syncml:metinf'>MjA1NjU2OTM1NQ==</NextNonce></Meta></Chal><Data>401</Data></Status><Alert><CmdID>2</CmdID><Data>1201</Data></Alert><Replace><CmdID>3</CmdID><Item><Source><LocURI>./DevInfo/DevId</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>A2000000000007</Data></Item><Item><Source><LocURI>./DevInfo/Man</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>lucy2</Data></Item><Item><Source><LocURI>./DevInfo/Mod</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>12</Data></Item><Item><Source><LocURI>./DevInfo/DmV</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>1.0</Data></Item><Item><Source><LocURI>./DevInfo/Lang</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>US-en</Data></Item><Item><Source><LocURI>./DevDetail/DevType</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>0101</Data></Item><Item><Source><LocURI>./DevDetail/FwV</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>v1.2.1.1-010100bj</Data></Item><Item><Source><LocURI>./HuaweiExt/Register/Status</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>1</Data></Item><Item><Source><LocURI>./DevDetail/UpgradeStatus</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>0</Data></Item><Item><Source><LocURI>./DevDetail/TerIdentifier</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>lucy</Data></Item><Item><Source><LocURI>./DevDetail/LastProvisioningTime</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>13</Data></Item><Item><Source><LocURI>./HuaweiExt/SBCsetting/cfgSBC</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>1</Data></Item><Item><Source><LocURI>./HuaweiExt/CaasSetting/AppKey</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>AppKey</Data></Item><Item><Source><LocURI>./HuaweiExt/CaasSetting/AppName</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>RCS</Data></Item><Item><Source><LocURI>./HuaweiExt/CaasSetting/AccessToken</LocURI></Source><Meta><Format xmlns='syncml:metinf'>chr</Format><Type xmlns='syncml:metinf'>text/plain</Type></Meta><Data>***</Data></Item></Replace><Final/></SyncBody></SyncML>]]></msgValue>
+    </traceMsg>
+</omInterface>
+<omInterface>
+    <traceMsg>
+        <localIpType>0</localIpType>
+        <localIpAddr>172.16.100.163</localIpAddr>
+        <localIpPort>36370</localIpPort>
+        <remoteIpType>0</remoteIpType>
+        <remoteIpAddr>172.20.141.32</remoteIpAddr>
+        <remoteIpPort>8000</remoteIpPort>
+        <userTraceHandle>
+            <int>9</int>
+        </userTraceHandle>
+        <msgType>0</msgType>
+        <direction>1</direction>
+        <msgName>200</msgName>
+        <msgLen>2350</msgLen>
+        <msgValue><![CDATA[Content-Type: application/vnd.syncml.dm+xml
+Content-Length: 2260
+Date: Thu, 23 Feb 2017 08:34:07 GMT
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2"><SyncHdr><VerDTD>1.2</VerDTD><VerProto>DM/1.2</VerProto><SessionID>1</SessionID><MsgID>2</MsgID><Target><LocURI>A2000000000007</LocURI></Target><Source><LocURI>OneMS</LocURI></Source><RespURI>http://172.16.100.156:8000/comserver/omadm?sid=AE9455C58D683B13E04363774DE745EC</RespURI><Cred><Meta><Format xmlns="syncml:metinf">b64</Format><Type xmlns="syncml:metinf">syncml:auth-md5</Type></Meta><Data>EwZrd750R3dbyBydKiRXUA==</Data></Cred><Meta><MaxMsgSize xmlns="syncml:metinf">10000</MaxMsgSize></Meta></SyncHdr><SyncBody><Status><CmdID>1</CmdID><MsgRef>2</MsgRef><CmdRef>0</CmdRef><Cmd>SyncHdr</Cmd><TargetRef>http://172.16.100.156:8000/comserver/omadm</TargetRef><SourceRef>A2000000000007</SourceRef><Chal><Meta><Format xmlns="syncml:metinf">b64</Format><Type xmlns="syncml:metinf">syncml:auth-md5</Type><NextNonce xmlns="syncml:metinf">MTQ4NzgzODg0NzUzNw==</NextNonce></Meta></Chal><Data>212</Data></Status><Status><CmdID>2</CmdID><MsgRef>2</MsgRef><CmdRef>3</CmdRef><Cmd>Replace</Cmd><Data>200</Data></Status><Status><CmdID>3</CmdID><MsgRef>2</MsgRef><CmdRef>2</CmdRef><Cmd>Alert</Cmd><Data>200</Data></Status><Replace><CmdID>4</CmdID><Item><Target><LocURI>./3GPP_IMS/RCS/Private_user_identity</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>A2000000000007@www.test.com</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Public_user_identity_List/1/Public_user_identity</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>sip:A2000000000007@www.test.com</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Home_network_domain_name</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>c6.huawei.com</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Ext/RCS/UserPwd</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>***</Data></Item><Item><Target><LocURI>./3GPP_IMS/RCS/Ext/RCS/UserPwd</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>***</Data></Item><Item><Target><LocURI>./DevDetail/LastProvisioningTime</LocURI></Target><Meta><Format xmlns="syncml:metinf">chr</Format></Meta><Data>14</Data></Item></Replace><Final/></SyncBody></SyncML>]]></msgValue>
+    </traceMsg>
+</omInterface>
+<omInterface>
+    <traceMsg>
+        <localIpType>0</localIpType>
+        <localIpAddr>172.20.141.32</localIpAddr>
+        <localIpPort>8000</localIpPort>
+        <remoteIpType>0</remoteIpType>
+        <remoteIpAddr>172.16.100.163</remoteIpAddr>
+        <remoteIpPort>36370</remoteIpPort>
+        <userTraceHandle>
+            <int>9</int>
+        </userTraceHandle>
+        <msgType>0</msgType>
+        <direction>0</direction>
+        <msgName>POST /comserver/omadm?sid=AE9455C58D683B13E04363774DE745EC</msgName>
+        <msgLen>973</msgLen>
+        <msgValue><![CDATA[host: 172.16.100.156:8000
+content-length: 854
+user-agent: workssys.com
+content-type: application/vnd.syncml.dm+xml
+<?xml version='1.0' encoding='UTF-8'?><SyncML xmlns='SYNCML:SYNCML1.2'><SyncHdr><VerDTD>1.2</VerDTD><VerProto>DM/1.2</VerProto><SessionID>1</SessionID><MsgID>3</MsgID><Target><LocURI>http://172.16.100.156:8000/comserver/omadm</LocURI></Target><Source><LocURI>A2000000000007</LocURI></Source><Meta><MaxMsgSize xmlns='syncml:metinf'>10000</MaxMsgSize></Meta></SyncHdr><SyncBody><Status><CmdID>1</CmdID><MsgRef>2</MsgRef><CmdRef>0</CmdRef><Cmd>SyncHdr</Cmd><TargetRef>A2000000000007</TargetRef><SourceRef>OneMS</SourceRef><Chal><Meta><Type xmlns='syncml:metinf'>syncml:auth-md5</Type><Format xmlns='syncml:metinf'>b64</Format><NextNonce xmlns='syncml:metinf'>MTQ1NjIyNTI3NQ==</NextNonce></Meta></Chal><Data>212</Data></Status><Status><CmdID>2</CmdID><MsgRef>2</MsgRef><CmdRef>4</CmdRef><Cmd>Replace</Cmd><Data>200</Data></Status><Final/></SyncBody></SyncML>]]></msgValue>
+    </traceMsg>
+</omInterface>
+<omInterface>
+    <traceMsg>
+        <localIpType>0</localIpType>
+        <localIpAddr>172.16.100.163</localIpAddr>
+        <localIpPort>36370</localIpPort>
+        <remoteIpType>0</remoteIpType>
+        <remoteIpAddr>172.20.141.32</remoteIpAddr>
+        <remoteIpPort>8000</remoteIpPort>
+        <userTraceHandle>
+            <int>9</int>
+        </userTraceHandle>
+        <msgType>0</msgType>
+        <direction>1</direction>
+        <msgName>200</msgName>
+        <msgLen>956</msgLen>
+        <msgValue><![CDATA[Content-Type: application/vnd.syncml.dm+xml
+Content-Length: 853
+Date: Thu, 23 Feb 2017 08:34:07 GMT
+<?xml version="1.0" encoding="UTF-8"?><SyncML xmlns="SYNCML:SYNCML1.2"><SyncHdr><VerDTD>1.2</VerDTD><VerProto>DM/1.2</VerProto><SessionID>1</SessionID><MsgID>3</MsgID><Target><LocURI>A2000000000007</LocURI></Target><Source><LocURI>OneMS</LocURI></Source><RespURI>http://172.16.100.156:8000/comserver/omadm?sid=AE9455C58D683B13E04363774DE745EC</RespURI><Meta><MaxMsgSize xmlns="syncml:metinf">10000</MaxMsgSize></Meta></SyncHdr><SyncBody><Status><CmdID>1</CmdID><MsgRef>3</MsgRef><CmdRef>0</CmdRef><Cmd>SyncHdr</Cmd><TargetRef>http://172.16.100.156:8000/comserver/omadm</TargetRef><SourceRef>A2000000000007</SourceRef><Chal><Meta><Format xmlns="syncml:metinf">b64</Format><Type xmlns="syncml:metinf">syncml:auth-md5</Type><NextNonce xmlns="syncml:metinf">MTQ4NzgzODg0NzY1OA==</NextNonce></Meta></Chal><Data>212</Data></Status><Final/></SyncBody></SyncML>]]></msgValue>
+    </traceMsg>
+</omInterface>
+</oma>
